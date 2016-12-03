@@ -16,15 +16,12 @@
 body {
   overflow: hidden;
 }
-
-.container {
-  width: 992px;
-}
   
 * {
   box-sizing: border-box;
 }
-  
+
+/* Text */
 h1 {
   margin-bottom: 15px;
   text-align: center
@@ -43,7 +40,7 @@ p {
   clear: right;
 }
 
-  /* Box Style */
+/* Container */
 #col-container {
   padding: 10px;
 }
@@ -54,13 +51,25 @@ p {
   height: 50px;
   padding: 10px;
   text-align: center;
-  background-color: pink;
   margin-bottom: 10px;
 }
 
+/* Bg Color */
 .bg-gray {
  background-color: #777;
   padding-bottom: 10px;
+} 
+
+.bg-pink {
+ background-color: pink;
+} 
+
+.bg-orange {
+ background-color: orange;
+} 
+  
+.bg-yellow {
+ background-color: yellow;
 } 
   
 /* Simple Responsive Framework. */
@@ -213,19 +222,19 @@ p {
     <div class="row">
       <div id="col-container" class="col-lg-4 col-md-6 col-sm-12">
         <div class="bg-gray">
-          <div id="article-title"  class="col-lg-5 col-md-5 col-sm-5"><h2>Chicken</h2></div>
+          <div id="article-title"  class="col-lg-5 col-md-5 col-sm-5 bg-pink"><h2>Chicken</h2></div>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam iaculis nibh felis, sed venenatis arcu cursus quis. Duis nec viverra ipsum. Etiam finibus finibus nisl non imperdiet. Donec laoreet tellus velit, porttitor sodales dui mollis at. Sed finibus pellentesque ultricies. Ut velit lectus, consequat sit amet lectus sit amet, fringilla consectetur elit. Proin aliquet feugiat ante sit amet pellentesque. Aenean consectetur malesuada accumsan. Sed facilisis, elit non sagittis feugiat, mi dui sollicitudin felis, eu varius turpis metus non ex.</p>
         </div>
       </div>
       <div id="col-container" class="col-lg-4 col-md-6 col-sm-12">
         <div class="bg-gray">
-          <div id="article-title"  class="col-lg-5 col-md-5 col-sm-5"><h2>Beef</h2></div>
+          <div id="article-title"  class="col-lg-5 col-md-5 col-sm-5 bg-orange"><h2>Beef</h2></div>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam iaculis nibh felis, sed venenatis arcu cursus quis. Duis nec viverra ipsum. Etiam finibus finibus nisl non imperdiet. Donec laoreet tellus velit, porttitor sodales dui mollis at. Sed finibus pellentesque ultricies. Ut velit lectus, consequat sit amet lectus sit amet, fringilla consectetur elit. Proin aliquet feugiat ante sit amet pellentesque. Aenean consectetur malesuada accumsan. Sed facilisis, elit non sagittis feugiat, mi dui sollicitudin felis, eu varius turpis metus non ex.</p>
         </div>
       </div>
       <div id="col-container" class="col-lg-4 col-md-12 col-sm-12">
         <div class="bg-gray">
-          <div id="article-title"  class="col-lg-5 col-md-5 col-sm-5"><h2>Sushi</h2></div>
+          <div id="article-title"  class="col-lg-5 col-md-5 col-sm-5 bg-yellow"><h2>Sushi</h2></div>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam iaculis nibh felis, sed venenatis arcu cursus quis. Duis nec viverra ipsum. Etiam finibus finibus nisl non imperdiet. Donec laoreet tellus velit, porttitor sodales dui mollis at. Sed finibus pellentesque ultricies. Ut velit lectus, consequat sit amet lectus sit amet, fringilla consectetur elit. Proin aliquet feugiat ante sit amet pellentesque. Aenean consectetur malesuada accumsan. Sed facilisis, elit non sagittis feugiat, mi dui sollicitudin felis, eu varius turpis metus non ex.</p>
         </div>
       </div>
