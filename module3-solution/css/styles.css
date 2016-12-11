@@ -1,7 +1,17 @@
 /* Import */
 @media (min-width:576px) {
-  #nav-list {
+  #nav-list,
+  .navbar-toggle {
     display: none
+  }
+}
+@media (max-width:576px) {
+  #collapsable-nav li {
+  border-bottom: 1px solid #e7e7e7;
+  text-align: center;
+  }
+  #collapsable-nav li:nth-child(3) {
+  border-bottom: 0;
   }
 }
 #header-nav {
