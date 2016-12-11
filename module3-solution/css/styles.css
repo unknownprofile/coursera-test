@@ -1,10 +1,10 @@
 /* Import */
-@media (min-width:992px) {
+@media (min-width:576px) {
   #nav-list {
     display: none
   }
 }
-.header-nav {
+#header-nav {
   border-radius: 0;
 }
 .navbar-brand {
@@ -16,7 +16,6 @@
 /* Text */
 h1 {
   margin-bottom: 15px;
-  text-align: center
 }
   
 h2 {
